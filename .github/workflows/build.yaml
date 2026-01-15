@@ -1,0 +1,6 @@
+name: Build ZMK firmware
+on: [push]
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build.yaml@main
