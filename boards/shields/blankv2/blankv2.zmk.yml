@@ -22,3 +22,11 @@ requires:
 siblings:
   - blankv2_left
   - blankv2_right
+name: "Explorer Blank V2"
+manufacturer: "Custom"
+url: "https://zmk.dev"
+matrix_rows: 5
+matrix_cols: 6
+split: true
+mcu: nrf52840
+wireless: true
