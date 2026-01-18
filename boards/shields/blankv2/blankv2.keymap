@@ -20,7 +20,7 @@
                 &kp 1     &kp 2     &kp 3     &kp 4     &kp 5     &kp 6
 
                 /* Row 4 */
-                &kp TAB   &kp LCTRL &kp LALT  &kp SPACE &kp ENTER &kp BSPC
+                &kp TAB   &kp LCTRL &kp LALT  &kp SPACE &kp ENTER &kp TAB
             >;
         };
     };
