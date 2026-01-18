@@ -7,9 +7,9 @@
 &kscan {
     row-gpios = <&gpioc 6 GPIO_ACTIVE_HIGH>,  /* row0 → PC6 */
                 <&gpiob 5 GPIO_ACTIVE_HIGH>,  /* row1 → PB5 */
-                <&gpiod 7 GPIO_ACTIVE_HIGH>,  /* row2 → PD7 */
+                <&gpiod 4 GPIO_ACTIVE_HIGH>,  /* row2 → PD4 */
                 <&gpioe 6 GPIO_ACTIVE_HIGH>,  /* row3 → PE6 */
-                <&gpiob 4 GPIO_ACTIVE_HIGH>;  /* row4 → PB4 */
+                <&gpiob 7 GPIO_ACTIVE_HIGH>;  /* row4 → PB7 */
 
     col-gpios = <&gpiof 6 GPIO_ACTIVE_HIGH>,  /* col0 → PF6 */
                 <&gpiob 6 GPIO_ACTIVE_HIGH>,  /* col1 → PB6 */

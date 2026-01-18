@@ -12,14 +12,18 @@
 
         default_layer {
             bindings = <
-                &kp N1 &kp N2    &kp N3 &kp N4
-                &kp A  &kp B     &kp C  &kp D
+                &kp Q &kp W &kp E &kp R &kp T &kp Y
+                &kp A &kp S &kp D &kp F &kp G &kp H
+                &kp Z &kp X &kp C &kp V &kp B &kp N
+                &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6
+                &kp TAB &kp LCTRL &kp LALT &kp SPACE &kp ENTER &kp BSPC
+            >;
     layout {
         bindings = <
             &kp Q &kp W &kp E &kp R &kp T &kp Y
             &kp A &kp S &kp D &kp F &kp G &kp H
             &kp Z &kp X &kp C &kp V &kp B &kp N
             &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6
-            &kp TAB &kp LCTRL &kp LALT &kp SPACE &kp ENTER &kp BSPC
+            &kp TAB &kp LCTRL &kp LALT &kp SPACE &kp ENTER &kp TAB
         >;
     };
