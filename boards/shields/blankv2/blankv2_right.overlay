@@ -4,22 +4,17 @@
 
 #include "blankv2.dtsi"
 
-&default_transform {
-    // Set this to the number of columns on the left side.
-    col-offset = <2>;
-};
-
 &kscan {
-    row-gpios = <&gpioc 6 GPIO_ACTIVE_HIGH>,  /* row0 → PC6 */
-                <&gpiob 5 GPIO_ACTIVE_HIGH>,  /* row1 → PB5 */
-                <&gpiod 4 GPIO_ACTIVE_HIGH>,  /* row2 → PD4 */
-                <&gpioe 6 GPIO_ACTIVE_HIGH>,  /* row3 → PE6 */
-                <&gpiob 7 GPIO_ACTIVE_HIGH>;  /* row4 → PB7 */
+    row-gpios = <&gpio0 6 GPIO_ACTIVE_LOW>,
+                <&gpio0 8 GPIO_ACTIVE_LOW>,
+                <&gpio0 17 GPIO_ACTIVE_LOW>,
+                <&gpio0 20 GPIO_ACTIVE_LOW>,
+                <&gpio0 25 GPIO_ACTIVE_LOW>;
 
-    col-gpios = <&gpiof 6 GPIO_ACTIVE_HIGH>,  /* col0 → PF6 */
-                <&gpiob 6 GPIO_ACTIVE_HIGH>,  /* col1 → PB6 */
-                <&gpiob 2 GPIO_ACTIVE_HIGH>,  /* col2 → PB2 */
-                <&gpiob 3 GPIO_ACTIVE_HIGH>,  /* col3 → PB3 */
-                <&gpiob 1 GPIO_ACTIVE_HIGH>,  /* col4 → PB1 */
-                <&gpiof 7 GPIO_ACTIVE_HIGH>;  /* col5 → PF7 */
+    col-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>,
+                <&gpio1 0 GPIO_ACTIVE_LOW>,
+                <&gpio0 11 GPIO_ACTIVE_LOW>,
+                <&gpio1 6 GPIO_ACTIVE_LOW>,
+                <&gpio0 31 GPIO_ACTIVE_LOW>,
+                <&gpio0 28 GPIO_ACTIVE_LOW>;
 };

@@ -1,29 +1,27 @@
-// This file was generated from a template. Edit it to match your keyboard.
-// See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    // Define a default keymap here.
-    // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp Q &kp W &kp E &kp R &kp T &kp Y
-                &kp A &kp S &kp D &kp F &kp G &kp H
-                &kp Z &kp X &kp C &kp V &kp B &kp N
-                &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6
-                &kp TAB &kp LCTRL &kp LALT &kp SPACE &kp ENTER &kp Y
+                /* Row 0 */
+                &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y
+
+                /* Row 1 */
+                &kp A     &kp S     &kp D     &kp F     &kp G     &kp H
+
+                /* Row 2 */
+                &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N
+
+                /* Row 3 */
+                &kp 1     &kp 2     &kp 3     &kp 4     &kp 5     &kp 6
+
+                /* Row 4 */
+                &kp TAB   &kp LCTRL &kp LALT  &kp SPACE &kp ENTER &kp BSPC
             >;
-    layout {
-        bindings = <
-            &kp Q &kp W &kp E &kp R &kp T &kp Y
-            &kp A &kp S &kp D &kp F &kp G &kp H
-            &kp Z &kp X &kp C &kp V &kp B &kp N
-            &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 &kp 6
-            &kp TAB &kp LCTRL &kp LALT &kp SPACE &kp ENTER &kp TAB
-        >;
+        };
     };
+};

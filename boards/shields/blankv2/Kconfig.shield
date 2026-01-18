@@ -1,5 +1,2 @@
-config SHIELD_BLANKV2_LEFT
-    def_bool $(shields_list_contains,blankv2_left)
-
-config SHIELD_BLANKV2_RIGHT
-    def_bool $(shields_list_contains,blankv2_right)
+config SHIELD_BLANKV2
+    def_bool $(shields_list_contains,blankv2)
