@@ -1,3 +1,4 @@
+name: blankv2
 build:
   settings:
     board_root: .
